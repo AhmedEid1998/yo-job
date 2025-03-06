@@ -1,0 +1,50 @@
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #f3f4f6;
+}
+
+html *::-webkit-scrollbar {
+    width: 8px;
+    background-color: #d4d3d3;
+}
+html *::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
+
+.content .left {
+    width: 300px;
+}
+
+.content .right .job-location {
+    font-size: 0.75rem;
+}
+
+.content .right .jobs-num {
+    font-size: 1.5rem;
+}
+
+#chips-container::-webkit-scrollbar {
+    height: 5px;
+    background-color: #d4d3d3;
+}
+
+#chips-container::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
+
+#chips-container {
+    max-width: 300px;
+}
+
+#chips-container .chip button {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+    #chips-container {
+        max-width: 300px !important;
+    }
+    .content .left {
+        width: 100% !important;
+    }
+}
